@@ -1,0 +1,1 @@
+nohup ../.env/bin/uwsgi -H /home/fanzhh/projects/sasc/.env --ini sasc_uwsgi.ini &

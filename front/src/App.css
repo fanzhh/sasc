@@ -1,0 +1,66 @@
+.App {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: rgb(221,221,221);
+  padding: 20px;
+}
+
+.App-bottom {
+  background-color: rgb(221,221,221);
+  height: 45px;
+  padding: 10px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.form-element label {
+  display: inline-block;
+  width: 130px;
+}
+
+input {
+  width: 60%;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.userinfo {
+  float:right;
+  top: 0;
+  right: 0;
+  padding: 0px;
+  margin: 0px;
+}
+
+img { 
+  width: 60%;
+  display: block;
+ }
+
+ Glyphicon {
+   float: right;
+   text-align: right;
+   margin: 2px
+ }
