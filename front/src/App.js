@@ -27,7 +27,7 @@ import thunk from 'redux-thunk';
 
 const middle = [ thunk ];
 
-export const UURL = 'http://222.175.171.50:5000/'
+export const UURL = 'http://?.?.?.?:5000/'
 
 const history = createHistory();
 
