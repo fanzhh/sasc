@@ -9,7 +9,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'qxjj26=&$xd@$-wfsb$d$n1mi#)mbw*53#2yqaby956nwv^*os'
+SECRET_KEY = '?'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -131,7 +131,7 @@ JWT_AUTH = {
         'JWT_EXPIRATION_DELTA': timedelta(days=1)
 }
 
-CORS_ORIGIN_WHITELIST = ('127.0.0.1:3000','localhost:3000','192.168.1.104:3000','192.168.1.104:5000','222.175.171.50:5050')
+CORS_ORIGIN_WHITELIST = ('')
 
-MEDIA_ROOT = '/home/fanzhh/projects/sasc/back/'
+MEDIA_ROOT = '/home/?/?/sasc/back/'
 MEDIA_URL = '/'
